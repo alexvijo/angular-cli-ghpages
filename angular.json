@@ -132,5 +132,10 @@
       }
     }
   },
-  "defaultProject": "angular-cli-ghpages"
+  "defaultProject": "angular-cli-ghpages",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
